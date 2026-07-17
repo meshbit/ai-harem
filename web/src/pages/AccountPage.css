@@ -1,0 +1,27 @@
+.account-page { max-width: 900px; margin: 0 auto; }
+.account-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+
+.account-tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.account-tab { display: flex; align-items: center; gap: 6px; padding: 10px 20px; border-radius: var(--radius-button); background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-dim); font-weight: 500; transition: all 0.2s; }
+.account-tab.active { background: var(--gradient-primary); color: #fff; border-color: transparent; }
+.account-tab:hover:not(.active) { background: var(--bg-card-hover); }
+
+.account-content { padding: 28px; }
+.account-content h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 20px; }
+
+.lucky-wheel { text-align: center; padding: 40px 0; }
+.wheel-center { font-size: 3rem; margin-bottom: 12px; }
+.lucky-wheel p { color: var(--text-dim); margin-bottom: 16px; }
+
+.recharge-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.recharge-card { padding: 20px; text-align: center; }
+.recharge-amount { font-size: 1.6rem; font-weight: 800; margin-bottom: 4px; }
+.recharge-amount span { font-size: 0.85rem; color: var(--text-dim); }
+.recharge-price { font-size: 1.1rem; color: var(--pink); margin-bottom: 12px; }
+
+.referral-rate { text-align: center; font-size: 1.1rem; margin-bottom: 16px; }
+.referral-code { display: flex; gap: 10px; }
+.referral-code input { flex: 1; padding: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-button); color: var(--text-dim); font-size: 0.85rem; }
+
+.empty-tab { text-align: center; padding: 60px 0; color: var(--text-dim); }
+.empty-tab i { font-size: 3rem; opacity: 0.3; display: block; margin-bottom: 12px; }

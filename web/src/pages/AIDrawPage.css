@@ -1,0 +1,18 @@
+.draw-page { max-width: 900px; margin: 0 auto; }
+.draw-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+
+.mode-tabs { display: flex; gap: 8px; margin-bottom: 24px; }
+.mode-tab { display: flex; align-items: center; gap: 6px; padding: 10px 24px; border-radius: var(--radius-button); background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-dim); font-weight: 500; transition: all 0.2s; }
+.mode-tab.active { background: var(--gradient-primary); color: #fff; border-color: transparent; }
+.mode-tab:hover:not(.active) { background: var(--bg-card-hover); }
+
+.draw-content { padding: 28px; }
+.prompt-area { margin-bottom: 24px; }
+.prompt-input { width: 100%; padding: 14px 16px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); color: var(--text-primary); font-size: 0.95rem; resize: vertical; outline: none; }
+.prompt-input:focus { border-color: var(--purple); }
+.generate-btn { margin-top: 12px; }
+
+.result-area { aspect-ratio: 1; max-height: 512px; border-radius: var(--radius-card); overflow: hidden; background: var(--bg-card); border: 1px solid var(--border-color); }
+.result-img { width: 100%; height: 100%; object-fit: contain; }
+.result-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: var(--text-dim); }
+.result-empty i { font-size: 4rem; opacity: 0.2; margin-bottom: 12px; }

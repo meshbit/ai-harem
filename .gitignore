@@ -1,0 +1,15 @@
+# Binaries
+*.exe
+*.db
+*.exe~
+
+# Node
+web/node_modules/
+web/dist/
+
+# Go
+server/aiharem
+
+# IDE
+.vscode/
+.idea/
